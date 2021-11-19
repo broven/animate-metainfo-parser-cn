@@ -1,4 +1,3 @@
-
 import convert from 'xml-js';
 
 export enum IResolution {
@@ -26,6 +25,7 @@ export class AnimateTitleMetaParser {
       case t.indexOf('1920X1080') !== -1:
         return IResolution.r1080p;
       case t.indexOf('720p') !== -1:
+      case t.indexOf('720P') !== -1:
       case t.indexOf('1280X720') !== -1:
         return IResolution.r720p;
       default:
@@ -46,6 +46,8 @@ export class AnimateTitleMetaParser {
     switch(true) {
         case text.indexOf('BIG5') !== -1:
         case text.indexOf('CHT') !== -1:
+        case text.indexOf('繁体') !== -1:
+        case text.indexOf('繁日双语') !== -1:
             return true;
         default:
             return false;
@@ -56,20 +58,23 @@ export class AnimateTitleMetaParser {
   }
   get episode(): number {
     const splitterArr = [
-      /】/, /【/, /\[/, /\]/, /\s/
+      [/】/, /【/, /\[/, /\]/,],
+      [ /\s/]
     ];
     const regArr = [
       /~~~(\d{1,})~~~/
     ];
     let title = this.rawTitle;
-    for (const splitter of splitterArr) {
-      const _reg = new RegExp(splitter, 'g');
-      title = title.replace(_reg, '~~~');
-    }
-    for (const reg of regArr) {
-      const match = reg.exec(title);
-      if (match) {
-        return parseInt(match[1]);
+    for (const splitters of splitterArr) {
+      for (const splitter of splitters) {
+        const _reg = new RegExp(splitter, 'g');
+        title = title.replace(_reg, '~~~');
+      }
+      for (const reg of regArr) {
+        const match = reg.exec(title);
+        if (match) {
+          return parseInt(match[1]);
+        }
       }
     }
     return -1;
@@ -78,7 +83,6 @@ export class AnimateTitleMetaParser {
     return `S${this.season}-E${this.episode}`
   }
 }
-
 export const animateFilter = (content: string) => {
   const parsedFeed:any = convert.xml2js(content, { compact: true});
   parsedFeed.rss.channel.item = parsedFeed.rss.channel.item.map((item: any) => {
@@ -86,6 +90,7 @@ export const animateFilter = (content: string) => {
     const metaParser = new AnimateTitleMetaParser(title);
     if (metaParser.isSeasonPack) return null;
     if (metaParser.isTraditionalChinese) return null;
+    // item.title._text = `${title} - E${metaParser.episode}`
    return item;
   })
   .filter((i: any) => i !== null)

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`幻樱字幕组 单集多分辨率 1`] = `
+exports[`api testing 幻樱字幕组 单集多分辨率 1`] = `
 "<?xml version=\\"1.0\\" encoding=\\"utf-8\\"?>
 <rss version=\\"2.0\\">
     <channel>
@@ -11,7 +11,7 @@ exports[`幻樱字幕组 单集多分辨率 1`] = `
 </rss>"
 `;
 
-exports[`幻樱字幕组 合集 1`] = `
+exports[`api testing 幻樱字幕组 合集 1`] = `
 "<?xml version=\\"1.0\\" encoding=\\"utf-8\\"?>
 <rss version=\\"2.0\\">
     <channel>
@@ -22,7 +22,7 @@ exports[`幻樱字幕组 合集 1`] = `
 </rss>"
 `;
 
-exports[`幻樱字幕组 语言过滤 1`] = `
+exports[`api testing 幻樱字幕组 语言过滤 1`] = `
 "<?xml version=\\"1.0\\" encoding=\\"utf-8\\"?>
 <rss version=\\"2.0\\">
     <channel>
@@ -40,6 +40,41 @@ exports[`幻樱字幕组 语言过滤 1`] = `
                 <pubDate>2020-10-03T19:13:00</pubDate>
             </torrent>
             <enclosure type=\\"application/x-bittorrent\\" length=\\"14680064\\" url=\\"https://mikanani.me/Download/20201003/746872bfc27c1d89123de4b0351d99e7ba4eb12a.torrent\\"/>
+        </item>
+    </channel>
+</rss>"
+`;
+
+exports[`api testing 桜都字幕组 case1 1`] = `
+"<?xml version=\\"1.0\\" encoding=\\"utf-8\\"?>
+<rss version=\\"2.0\\">
+    <channel>
+        <title>Mikan Project - 180秒能让你的耳朵幸福吗？</title>
+        <link>http://mikanani.me/RSS/Bangumi?bangumiId=2581&amp;subgroupid=203</link>
+        <description>Mikan Project - 180秒能让你的耳朵幸福吗？</description>
+        <item>
+            <guid isPermaLink=\\"false\\">[桜都字幕组] 180秒能让你的耳朵感到幸福吗？ / 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka？ [02][720p][简体内嵌]</guid>
+            <link>https://mikanani.me/Home/Episode/30b7faeb353da72b0d67c52f1e1e8a6f55adae56</link>
+            <title>[桜都字幕组] 180秒能让你的耳朵感到幸福吗？ / 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka？ [02][720p][简体内嵌]</title>
+            <description>[桜都字幕组] 180秒能让你的耳朵感到幸福吗？ / 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka？ [02][720p][简体内嵌][27.31 MB]</description>
+            <torrent xmlns=\\"https://mikanani.me/0.1/\\">
+                <link>https://mikanani.me/Home/Episode/30b7faeb353da72b0d67c52f1e1e8a6f55adae56</link>
+                <contentLength>28636610</contentLength>
+                <pubDate>2021-10-22T21:41:11.809</pubDate>
+            </torrent>
+            <enclosure type=\\"application/x-bittorrent\\" length=\\"28636610\\" url=\\"https://mikanani.me/Download/20211022/30b7faeb353da72b0d67c52f1e1e8a6f55adae56.torrent\\"/>
+        </item>
+        <item>
+            <guid isPermaLink=\\"false\\">[桜都字幕组] 180秒能让你的耳朵感到幸福吗？ / 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka？ [01][720p][简体内嵌]</guid>
+            <link>https://mikanani.me/Home/Episode/ad56e5ddbe8d6ba4a39ec41e70635287c7b4dee3</link>
+            <title>[桜都字幕组] 180秒能让你的耳朵感到幸福吗？ / 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka？ [01][720p][简体内嵌]</title>
+            <description>[桜都字幕组] 180秒能让你的耳朵感到幸福吗？ / 180 Byou de Kimi no Mimi o Shiawase ni Dekiru ka？ [01][720p][简体内嵌][25.04 MB]</description>
+            <torrent xmlns=\\"https://mikanani.me/0.1/\\">
+                <link>https://mikanani.me/Home/Episode/ad56e5ddbe8d6ba4a39ec41e70635287c7b4dee3</link>
+                <contentLength>26256344</contentLength>
+                <pubDate>2021-10-16T00:44:58.937</pubDate>
+            </torrent>
+            <enclosure type=\\"application/x-bittorrent\\" length=\\"26256344\\" url=\\"https://mikanani.me/Download/20211016/ad56e5ddbe8d6ba4a39ec41e70635287c7b4dee3.torrent\\"/>
         </item>
     </channel>
 </rss>"
