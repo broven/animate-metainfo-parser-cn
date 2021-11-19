@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Mikan Project - 养猫养狗每天很开心</title>
+        <link>http://mikanani.me/RSS/Bangumi?bangumiId=2300&amp;subgroupid=21</link>
+        <description>Mikan Project - 养猫养狗每天很开心</description>
+        <item>
+            <guid isPermaLink="false">【幻樱字幕组】【养猫养狗每天很开心 Inu to Neko Docchi mo Katteru to Mainichi Tanoshii】【01~24】【BIG5_MP4】【1280X720】【合集】</guid>
+            <link>https://mikanani.me/Home/Episode/b233d8f8f6dd9e1a990f5fe411735d192466fd67</link>
+            <title>【幻樱字幕组】【养猫养狗每天很开心 Inu to Neko Docchi mo Katteru to Mainichi Tanoshii】【01~24】【BIG5_MP4】【1280X720】【合集】</title>
+            <description>【幻樱字幕组】【养猫养狗每天很开心 Inu to Neko Docchi mo Katteru to Mainichi Tanoshii】【01~24】【BIG5_MP4】【1280X720】【合集】[267.1MB]</description>
+            <torrent xmlns="https://mikanani.me/0.1/">
+                <link>https://mikanani.me/Home/Episode/b233d8f8f6dd9e1a990f5fe411735d192466fd67</link>
+                <contentLength>280074656</contentLength>
+                <pubDate>2021-03-31T04:32:00</pubDate>
+            </torrent>
+            <enclosure type="application/x-bittorrent" length="280074656" url="https://mikanani.me/Download/20210331/b233d8f8f6dd9e1a990f5fe411735d192466fd67.torrent" />
+        </item>
+        <item>
+            <guid isPermaLink="false">【幻樱字幕组】【10月新番】【养猫养狗每天很开心 Inu to Neko Docchi mo Katteru to Mainichi Tanoshii】【24】【BIG5_MP4】【1280X720】【END】</guid>
+            <link>https://mikanani.me/Home/Episode/cd592170e0f36c9bcd50fbab5202ff26a0946be6</link>
+            <title>【幻樱字幕组】【10月新番】【养猫养狗每天很开心 Inu to Neko Docchi mo Katteru to Mainichi Tanoshii】【24】【BIG5_MP4】【1280X720】【END】</title>
+            <description>【幻樱字幕组】【10月新番】【养猫养狗每天很开心 Inu to Neko Docchi mo Katteru to Mainichi Tanoshii】【24】【BIG5_MP4】【1280X720】【END】[11.3MB]</description>
+            <torrent xmlns="https://mikanani.me/0.1/">
+                <link>https://mikanani.me/Home/Episode/cd592170e0f36c9bcd50fbab5202ff26a0946be6</link>
+                <contentLength>11848909</contentLength>
+                <pubDate>2021-03-30T06:31:00</pubDate>
+            </torrent>
+            <enclosure type="application/x-bittorrent" length="11848909" url="https://mikanani.me/Download/20210330/cd592170e0f36c9bcd50fbab5202ff26a0946be6.torrent" />
+        </item>
+        <item>
+            <guid isPermaLink="false">【幻樱字幕组】【10月新番】【养猫养狗每天很开心 Inu to Neko Docchi mo Katteru to Mainichi Tanoshii】【23】【BIG5_MP4】【1280X720】</guid>
+            <link>https://mikanani.me/Home/Episode/e7c0c65cf00cec38e186add7fddc44437bbf86cb</link>
+            <title>【幻樱字幕组】【10月新番】【养猫养狗每天很开心 Inu to Neko Docchi mo Katteru to Mainichi Tanoshii】【23】【BIG5_MP4】【1280X720】</title>
+            <description>【幻樱字幕组】【10月新番】【养猫养狗每天很开心 Inu to Neko Docchi mo Katteru to Mainichi Tanoshii】【23】【BIG5_MP4】【1280X720】[11.9MB]</description>
+            <torrent xmlns="https://mikanani.me/0.1/">
+                <link>https://mikanani.me/Home/Episode/e7c0c65cf00cec38e186add7fddc44437bbf86cb</link>
+                <contentLength>12478054</contentLength>
+                <pubDate>2021-03-23T07:14:00</pubDate>
+            </torrent>
+            <enclosure type="application/x-bittorrent" length="12478054" url="https://mikanani.me/Download/20210323/e7c0c65cf00cec38e186add7fddc44437bbf86cb.torrent" />
+        </item>
+    </channel>
+</rss>

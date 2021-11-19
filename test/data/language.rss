@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Mikan Project - 养猫养狗每天很开心</title>
+        <link>http://mikanani.me/RSS/Bangumi?bangumiId=2300&amp;subgroupid=21</link>
+        <description>Mikan Project - 养猫养狗每天很开心</description>
+        <item>
+            <guid isPermaLink="false">【幻樱字幕组】【10月新番】【养猫养狗每天很开心 Inu to Neko Docchi mo Katteru to Mainichi Tanoshii】【01】【GB_MP4】【1280X720】</guid>
+            <link>https://mikanani.me/Home/Episode/746872bfc27c1d89123de4b0351d99e7ba4eb12a</link>
+            <title>【幻樱字幕组】【10月新番】【养猫养狗每天很开心 Inu to Neko Docchi mo Katteru to Mainichi Tanoshii】【01】【GB_MP4】【1280X720】</title>
+            <description>【幻樱字幕组】【10月新番】【养猫养狗每天很开心 Inu to Neko Docchi mo Katteru to Mainichi Tanoshii】【01】【GB_MP4】【1280X720】[14MB]</description>
+            <torrent xmlns="https://mikanani.me/0.1/">
+                <link>https://mikanani.me/Home/Episode/746872bfc27c1d89123de4b0351d99e7ba4eb12a</link>
+                <contentLength>14680064</contentLength>
+                <pubDate>2020-10-03T19:13:00</pubDate>
+            </torrent>
+            <enclosure type="application/x-bittorrent" length="14680064" url="https://mikanani.me/Download/20201003/746872bfc27c1d89123de4b0351d99e7ba4eb12a.torrent" />
+        </item>
+        <item>
+            <guid isPermaLink="false">【幻樱字幕组】【10月新番】【养猫养狗每天很开心 Inu to Neko Docchi mo Katteru to Mainichi Tanoshii】【01】【BIG5_MP4】【1280X720】</guid>
+            <link>https://mikanani.me/Home/Episode/55c7bd00f31f4e3d8758cb99dc844e80ec129a96</link>
+            <title>【幻樱字幕组】【10月新番】【养猫养狗每天很开心 Inu to Neko Docchi mo Katteru to Mainichi Tanoshii】【01】【BIG5_MP4】【1280X720】</title>
+            <description>【幻樱字幕组】【10月新番】【养猫养狗每天很开心 Inu to Neko Docchi mo Katteru to Mainichi Tanoshii】【01】【BIG5_MP4】【1280X720】[14MB]</description>
+            <torrent xmlns="https://mikanani.me/0.1/">
+                <link>https://mikanani.me/Home/Episode/55c7bd00f31f4e3d8758cb99dc844e80ec129a96</link>
+                <contentLength>14680064</contentLength>
+                <pubDate>2020-10-03T19:13:00</pubDate>
+            </torrent>
+            <enclosure type="application/x-bittorrent" length="14680064" url="https://mikanani.me/Download/20201003/55c7bd00f31f4e3d8758cb99dc844e80ec129a96.torrent" />
+        </item>
+    </channel>
+</rss>
