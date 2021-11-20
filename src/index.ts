@@ -57,7 +57,7 @@ export class AnimateTitleMetaParser {
     return -1;
   }
   get episode(): number {
-    const splitterArr = [[/】/, /【/, /\[/, /\]/], [/\s/]];
+    const splitterArr = [[/】/, /【/, /\[/, /\]/], [/\s/], ['第', '话']];
     const regArr = [/~~~(\d{1,})~~~/];
     let title = this.rawTitle;
     for (const splitters of splitterArr) {

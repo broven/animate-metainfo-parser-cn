@@ -70,6 +70,14 @@ describe('metaparser testing', () => {
       -1,
       12,
     ],
+    [
+      '小明和王猫：第10话 劳菲尔行动.mp4',
+      IResolution.rUnknown,
+      false,
+      true,
+      -1,
+      10
+    ]
   ])(
     'AnimateTitleMetaParser %s',
     (title, resolution, isSeasonPack, isChinese, season, ep) => {
