@@ -76,8 +76,8 @@ describe('metaparser testing', () => {
       false,
       true,
       -1,
-      10
-    ]
+      10,
+    ],
   ])(
     'AnimateTitleMetaParser %s',
     (title, resolution, isSeasonPack, isChinese, season, ep) => {
