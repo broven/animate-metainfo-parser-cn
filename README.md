@@ -1,5 +1,6 @@
 # ANIMATE-METAINFO-PARSER-CN
 [![CI](https://github.com/broven/animate-metainfo-parser-cn/actions/workflows/main.yml/badge.svg)](https://github.com/broven/animate-metainfo-parser-cn/actions/workflows/main.yml)
+![npm](https://img.shields.io/npm/dt/animate-metainfo-parser-cn)
 
 动画名元数据解析
 - 分辨率
