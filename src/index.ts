@@ -36,6 +36,9 @@ export class AnimateTitleMetaParser {
     const title = this.rawTitle;
     switch (true) {
       case title.indexOf('【合集】') !== -1:
+      case title.indexOf('[合集]') !== -1:
+      case title.indexOf('[修正合集]') !== -1:
+      case title.indexOf('【修正合集】') !== -1:
         return true;
       default:
         return false;

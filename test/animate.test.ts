@@ -78,6 +78,14 @@ describe('metaparser testing', () => {
       -1,
       10,
     ],
+    [
+      '【悠哈璃羽字幕社】[本田小狼与我_Super Cub][01-12 Fin][修正合集][x264 1080p][简日双语]',
+      IResolution.r1080p,
+      true,
+      true,
+      -1,
+      -1,
+    ],
   ])(
     'AnimateTitleMetaParser %s',
     (title, resolution, isSeasonPack, isChinese, season, ep) => {
