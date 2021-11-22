@@ -1,7 +1,7 @@
 name: Publish to npm
 on:
   workflow_run:
-    workflows: ["CI"]
+    workflows: ["CI", "main"]
     branches: [main, master]
     types:
       - completed
