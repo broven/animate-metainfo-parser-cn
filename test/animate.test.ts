@@ -86,6 +86,22 @@ describe('metaparser testing', () => {
       -1,
       -1,
     ],
+    [
+      '[云光字幕组]摇曳露营△ 第一季 Yuru Camp Season-[ 01][1080p][BD][简体双语]招募翻译.mp4',
+      IResolution.r1080p,
+      false,
+      true,
+      -1,
+      1,
+    ],
+    [
+      '[云光字幕组]摇曳露营△ 第一季 Yuru Camp Season-[ 12 END][1080p][BD][简体双语]招募翻译.mp4',
+      IResolution.r1080p,
+      false,
+      true,
+      -1,
+      12,
+    ],
   ])(
     'AnimateTitleMetaParser %s',
     (title, resolution, isSeasonPack, isChinese, season, ep) => {
