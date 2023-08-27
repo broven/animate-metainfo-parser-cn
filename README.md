@@ -8,6 +8,12 @@
 - 语言
 - 是否是合集
 - [more](https://github.com/broven/animate-metainfo-parser-cn/blob/master/test/animate.test.ts#L75)
+### Usage
+```javascript
+import { AnimateTitleMetaParser } from 'animate-metainfo-parser-cn';
+const metainfo = new AnimateTitleMetaParser(animateName);
+console.log(metainfo)
+```
 ### TODO
 - 季度解析
 ## related project
